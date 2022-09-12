@@ -58,7 +58,7 @@ h2 {
 .container-1-info {
     width: 60%;
     height: 100%;
-    background-image: url("/img/escalaComision.png");
+    background-image: url("img/escalaComision.png");
     background-repeat: no-repeat;
     background-size:contain;
     background-position: center;
