@@ -1,6 +1,7 @@
 
 :root {
 --color-primario: #d0e3f7;
+--color-primario-button: #cae2fc;
 --color-complementario: rgba(250, 224, 177, 0.836);
 }
 
@@ -9,8 +10,34 @@
     border: 2px;
 }
 
+
 .border {
     border-style:solid;
+}
+
+button {
+    margin: 10px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, .4);
+    border: 1px solid rgba(0, 0, 0, .4);
+    background-color: var(--color-primario-button);
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: var(--color-primario-button);
+    transform: scale(1.1);
+    transition: all 0.1s ease-in-out;
+    animation-direction: alternate;
+}
+
+.button-1 {
+    display: flex;
+    float: left;
+}
+
+.button-2 {
+    display: flex;
+    float: right;
 }
 
 body {
@@ -27,10 +54,19 @@ li {
 h3 { 
     font-style: italic;
     font-size: 20px;
+    text-shadow: 2px 2px 15px grey;
+    text-decoration: underline;
 }
 
 h2 {
     font-style: italic;
+    text-shadow: 2px 2px 15px grey;
+    text-decoration: underline;
+}
+
+input {
+    width: 100px;
+
 }
 
 .container-0 {
@@ -43,6 +79,8 @@ h2 {
     height: 50%;
     display:flex;
     padding: 0px;
+    overflow: hidden;
+    
 }
 
 
@@ -51,14 +89,18 @@ h2 {
     width: 40%;
     min-height: 100%;
     height: 100%;
-    text-align:center;
-    padding: 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;  
+    overflow: hidden;
+    
 }
 
 .container-1-info {
     width: 60%;
     height: 100%;
-    background-image: url("img/escalaComision.png");
+    background-image: url('img/escalaComision.png');
     background-repeat: no-repeat;
     background-size:contain;
     background-position: center;
@@ -70,6 +112,7 @@ h2 {
     height: 60%;
     padding-top: 0px;
     margin-top: 0px;
+    overflow:hidden;
 }
 
 .container-2-nombre {
@@ -77,20 +120,23 @@ h2 {
     width: 100%;
     height: 15%;
     padding: 01px;
-    text-align: center;
-    vertical-align: top;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
 }
 
 .container-2-info {
     width: 40%;
     height: 100%;
+    padding-top: 2%;
     float: left;
-    display:flex;
-    margin: auto;
-    text-align:center;
-    align-items:baseline;
-    justify-content:center;
-    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: top;
+    overflow: hidden;
 
 }
 
@@ -105,6 +151,10 @@ h2 {
     background-color :var(--color-complementario) ;
     width: 50%;
     height: 100%;
-    text-align: center;
-    padding: 0px;
+    min-height: 95%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: top;
+    overflow: hidden;
 }
