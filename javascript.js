@@ -68,7 +68,7 @@ function borrarDatos () {
     <h3>Infomacion general</h3>
     <ul>Total de ventas: -</ul>
     <ul>Promedio de ventas: -</ul>
-    <ul>Distribucion con Promo / sin Promo: -%/-%</ul>
+    <ul>Distribucion sin Promo / con Promo: -%/-%</ul>
     <ul>Escala actual o la mas cercana: -</ul>
     <ul>Comision actual o la mas cercana: -</ul>
     `
@@ -171,7 +171,7 @@ function imprimirInfo () {
     <h3> Infomacion general</h3>
     <ul>Total de ventas: ${ventasTotal}</ul>
     <ul>Promedio de ventas: ${promedio.toFixed(2)}</ul>
-    <ul>Distribucion con Promo / sin Promo: ${sinPromo.toFixed()}%/${conPromo.toFixed()}%</ul>
+    <ul>Distribucion sin Promo / con Promo: ${sinPromo.toFixed()}%/${conPromo.toFixed()}%</ul>
     <ul>Escala actual o la mas cercana: ${escalaActual}</ul>
     <ul>Comision actual o la mas cercana: ${proxComision}</ul>
     `
