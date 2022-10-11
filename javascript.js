@@ -83,7 +83,7 @@ function borrarDatos () {
     <ul>Ventas diarias para proxima escala: -</ul>
     <ul>Comision: -</ul>
     <br>
-    <h3>20% extra para asegurar escala: -</h3>
+    <h3>Colchon del 20% por bajas:  -</h3>
     <ul>Ventas para asegurar proxima escala: -</ul>
     <ul>Ventas diarias para asegurar escala: -</ul>
     <ul>Comision: -</ul>
@@ -99,7 +99,7 @@ function borrarDatos () {
     <ul>Ventas diarias para objetivo: -</ul>
     <ul>Comision: -</ul>
     <br>
-    <h3>20% extra para asegurar objetivo: -</h3>
+    <h3>Colchon del 20% por bajas:  -</h3>
     <ul>Ventas para asegurar objetivo: -</ul>
     <ul>Ventas diarias para asegurar objetivo: -</ul>
     <ul>Comision: -</ul>
@@ -200,7 +200,7 @@ function imprimirObjetivo1 () {
     <ul>Ventas diarias para proxima escala: ${ventasPorDiaProxEscala.toFixed(2)}</ul>
     <ul>Comision: ${proxComision}</ul>
     
-    <h3>20% extra para asegurar escala: ${parseInt((proxEscala*1.2))}</h3>
+    <h3>Colchon del 20% por bajas:  ${parseInt((proxEscala*1.2))}</h3>
     <ul>Ventas para asegurar proxima escala: ${parseInt(((proxEscala*1.2)-ventasTotal))}</ul>
     <ul>Ventas diarias para asegurar escala: ${(((proxEscala*1.2)-ventasTotal)/datosStorage[3]).toFixed(2)}</ul>
     <ul>Comision: ${proxComision}</ul>
@@ -226,7 +226,7 @@ function imprimirObjetivo2 () {
     <ul>Ventas diarias para objetivo: ${ventasPorDiaProxEscala.toFixed(2)}</ul>
     <ul>Comision: ${objComision}</ul>
     
-    <h3>20% extra para asegurar objetivo: ${parseInt((datosStorage[4]*1.2))}</h3>
+    <h3>Colchon del 20% por bajas:  ${parseInt((datosStorage[4]*1.2))}</h3>
     <ul>Ventas para asegurar objetivo: ${parseInt(((datosStorage[4]*1.2)-ventasTotal))}</ul>
     <ul>Ventas diarias para asegurar objetivo: ${(((datosStorage[4]*1.2)-ventasTotal)/datosStorage[3]).toFixed(2)}</ul>
     <ul>Comision: ${objComision}</ul>
