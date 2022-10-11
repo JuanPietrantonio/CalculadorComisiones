@@ -3,11 +3,12 @@
 --color-primario: #d0e3f7;
 --color-primario-button: #cae2fc;
 --color-complementario: rgba(250, 224, 177, 0.836);
+--color-complementario1: rgba(253, 251, 232, 0.696);
 }
 
 * {
     box-sizing: border-box;
-    border: 2px;
+    border: 1px;
 }
 
 
@@ -43,7 +44,7 @@ button:hover {
 body {
     margin: 0;
     font-family: 'century gothic', sans-serif;
-    background-color: var(--color-primario);
+    background-color: var(red);
 }
 
 li {
@@ -55,14 +56,14 @@ h3 {
     font-style: italic;
     font-size: 20px;
     text-shadow: 2px 2px 15px grey;
-    text-decoration: underline;
+    text-decoration: none;
     text-align: center;
 }
 
 h2 {
     font-style: italic;
     text-shadow: 2px 2px 15px grey;
-    text-decoration: underline;
+    text-decoration: none;
     text-align: center;
 }
 
@@ -95,7 +96,7 @@ input {
     flex-direction: column;
     justify-content: center;  
     overflow: hidden;
-    
+    background-color: var(--color-primario);
 }
 
 .container-1-info {
@@ -105,7 +106,7 @@ input {
     background-repeat: no-repeat;
     background-size:contain;
     background-position: center;
-    background-color: var(--color-complementario);
+    background-color: var(--color-complementario1);
 }
 
 .container-2 {
@@ -117,10 +118,10 @@ input {
 }
 
 .container-2-nombre {
-    background-color:rgba(253, 251, 232, 0.696) ;
-    width: 100%;
-    height: 15%;
-    padding: 01px;
+    background-color:color-complementario1;
+    width: 00%;
+    height: 0%;
+    padding: 00px;
     display: flex;
     align-items: center;
     flex-direction: column;
