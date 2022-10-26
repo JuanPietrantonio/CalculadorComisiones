@@ -81,7 +81,7 @@ function borrarDatos () {
     <h3>Siguiente escala: -</h3>
     <ul>Ventas para alcanzar proxima escala: -</ul>
     <ul>Ventas diarias para proxima escala: -</ul>
-    <ul>Comision: -</ul>
+    
     <br>
     <h3>Colchon del 20% por bajas:  -</h3>
     <ul>Ventas para asegurar proxima escala: -</ul>
@@ -97,7 +97,7 @@ function borrarDatos () {
     <h3>Objetivo personal: -</h3>
     <ul>Ventas para objetivo: -</ul>
     <ul>Ventas diarias para objetivo: -</ul>
-    <ul>Comision: -</ul>
+    
     <br>
     <h3>Colchon del 20% por bajas:  -</h3>
     <ul>Ventas para asegurar objetivo: -</ul>
@@ -198,7 +198,7 @@ function imprimirObjetivo1 () {
     <h3>Siguiente escala: ${proxEscala}</h3>
     <ul>Ventas para alcanzar proxima escala: ${ventasFaltantesProxEscala}</ul>
     <ul>Ventas diarias para proxima escala: ${ventasPorDiaProxEscala.toFixed(2)}</ul>
-    <ul>Comision: ${proxComision}</ul>
+    
     
     <h3>Colchon del 20% por bajas:  ${parseInt((proxEscala*1.2))}</h3>
     <ul>Ventas para asegurar proxima escala: ${parseInt(((proxEscala*1.2)-ventasTotal))}</ul>
@@ -224,7 +224,7 @@ function imprimirObjetivo2 () {
     <h3>Objetivo personal: ${datosStorage[4]}</h3>
     <ul>Ventas para objetivo: ${ventasFaltantesProxEscala}</ul>
     <ul>Ventas diarias para objetivo: ${ventasPorDiaProxEscala.toFixed(2)}</ul>
-    <ul>Comision: ${objComision}</ul>
+    
     
     <h3>Colchon del 20% por bajas:  ${parseInt((datosStorage[4]*1.2))}</h3>
     <ul>Ventas para asegurar objetivo: ${parseInt(((datosStorage[4]*1.2)-ventasTotal))}</ul>
